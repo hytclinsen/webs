@@ -1,0 +1,90 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: 0;}
+body{background-color: #dddddd;}
+
+
+
+/**页眉**/
+#topnav{
+	width: 100% ; min-width: 1000px ;height: 28px;border-bottom: 1px solid #ccc;}
+
+#topNavInner{width: 1000px;height: 28px;
+			 margin: auto;}
+#topNavLeft{width: 342px;height: 28px;
+			margin: 0;
+			float: left;}
+#topNavRight{width:400px;height: 28px;
+			margin: 0;
+			float: right;}
+
+.TopNavTopA{font-size: 12px;font-family: 宋体;line-height: 28px;color: #666;text-decoration: none;}
+.TopNavTopA:hover{color: #333;}
+
+.menul{width:60px;height: auto;
+	background-color: #ffffff;
+	box-shadow:rgba(0,0,0,0.298039) 3px 3px 10px 0px;
+	position: absolute;z-index: 2;display: none;
+	}
+.menu2{
+	display: none;position: absolute;z-index: 2;
+}
+.me{float: left;position: relative;padding: 0 12px 0 12px;}
+.mena{font-size: 6px;padding: 8px 5px 8px 5px;display: block;}
+.mena:hover{color: #f00;}
+/**页眉end**/
+#daohang{width: 100%;height: 43px;
+	background-color: #fff;
+    border-bottom: 1px solid #cbcbcb;}
+.menu{display: inline-block;position: relative;}
+#menuA{width:1000px;height: 40px;
+	font-family: 'Helvetica Neue';
+	margin: auto;
+	text-align: center;}
+#menuA li{display: inline-block;height: auto;}
+.menuTitle{display: inline-block;
+	height: 22px;
+	padding: 10px 10px 0 10px;
+	font-family: inherit;
+	font-weight:bold;
+	font-size:  16px;
+	color: #3a3a3a;
+	margin-top: 9px;}
+.subMenu{width: 90px;height: auto;
+	background-color: #ffffff;
+	box-shadow:rgba(0,0,0,0.298039) 3px 3px 10px 0px;
+	position: absolute;display: none;z-index: 2;
+	}
+.subMenu li{height: 32px;width: 100%;}
+.subMenuA{font-family: 'Helvetica Neue';
+	color: rgb(102,102,102);
+	font-size: 12px;line-height: 32px;
+	padding: 0 0 0 0px; 
+	}
+#content{
+	width: 100%;height: 1200px;
+	border: 1px #ccc solid;
+	margin: 200px 0 0 0;
+}
+
+#c1{width:100%;height: 740px;
+	border: 1px #ccc solid;
+}
+#c1Left{width: 650px;height: 733px;float: left;
+	margin-left: 25px;
+	}
+#c1Right{width: 600px;height: 740px;float: right;}
+
+#c1Right1{width: 580px;height: 340px;
+border: 1px #ccc solid;float: left;}
+#c1Right2{width: 580px;height: 340px;float: left;
+margin-top: 30px;}
+
+
+
+
+
+#demo2{margin: auto;width: 324px;height: 36px;}
+.c{border: 1px solid #ccc;float: left;width:160px;height: 17px;text-align: center; }
+.ac{background-color: #ccc;}

@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0;}
+body{ width: 99%; text-align: center; font-size: 12px; font-family: 宋体,Arial;
+	background-image: url("images/261942.jpg");}
+img{ border: 0px; }
+ul,li{ list-style: none; list-style-position: outside; }
+
+
+
+.zhanshi{width: 100%;height: 1200x;}
+.zuopin{width:304px;height:430px;float: left;box-shadow:10px 10px 10px;margin-left: 20px;margin-top: 20px;}
+.images{display: block;width: 278px;height: 364px;float: left;}
+.images:hover{box-shadow: 6px 6px 6px  #fff;}
+.mingzi{display: block;width: 300px;height: 80px;float: left;
+	text-decoration: none;font-size: 18px;color:rgb(211,211,211);
+	font-family: "Microsoft YaHei";line-height: 80px;}
+.mingzi:hover{color: rgb(255,255,255);font-weight: bold;}
